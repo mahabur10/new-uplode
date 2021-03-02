@@ -1,0 +1,243 @@
+/* defult */
+*{
+    padding: 0px;
+    margin: 0pc;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fix-width{
+    width: 1270px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+/* header */
+
+.header{
+    background: rgba(19, 15, 64, .8);
+}
+.header-logo{
+   float: left;
+   width: 30%;
+   text-align: left;
+}
+.header-logo img{
+    max-width: 200px;
+    display: inline-block;
+
+}
+
+.header-manu{
+    float: right;
+    width: 70%;
+}
+.header-manu ul{
+    text-align: right;
+}
+.header-manu ul li{
+    display: inline-block;
+    margin-right:-4px;
+}
+.header-manu ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 40px;
+    border-left: 2px solid #ddd;
+    line-height: 52px;
+    text-transform:lowercase ;
+
+}
+.header-manu ul li:last-child a{
+    border-right: 2px solid #ddd;
+}
+
+.header-manu ul li a:hover{
+    background-color: #4834d4;
+    transition: .3s;
+
+}
+
+/* slaider */
+
+.slaider{
+    text-align: center;
+    background-image: url(./pic2/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0;
+}
+.slaider-text{}
+.slaider-text h1{
+    color: #fff;
+    background-color: rgba(72, 52, 212, .8);
+    display: inline-block;
+    font-size: 40px;
+    padding: 5px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.slaider-text h3{
+    color: #fff;
+    background-color: rgba(19, 15, 64, .7);
+    text-transform: capitalize;
+    font-size: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* about */
+
+.about{
+    text-align: center;
+    background-color: #c7ecee
+}
+.about h2{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.about p{
+    font-size: 30px;
+    max-width: 1000px;
+    margin: 5px auto;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+/* service */
+
+.service{
+    text-align: center;
+    background-color: #dff9fb;
+    padding-bottom: 10px;
+}
+.head-service{
+    font-size: 50px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: darkkhaki;
+}
+.service-text{
+    max-width: 32.33%;
+    float: left;
+    border: 2px solid cyan;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+.service-text span{
+    display: block;
+    background-color: darkturquoise;
+    color: #f6e58d;
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+    line-height: 50px;
+    border-radius: 10px 0 10px 0;
+}
+.service-text h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.service-text p{
+    font-size: 20px;
+}
+
+/* blog */
+
+.blog{
+    background-color: #95afc0;
+    padding-bottom: 5px;
+}
+.blog h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #eb4d4b;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom:2px solid #ffbe76;
+    
+}
+.blog-left{
+    padding-top: 5px;
+    width: 70%;
+    float: left;
+}
+.blog-right{
+    width: 25%;
+    float: right;
+}
+
+.blog-left img{
+    max-width: 140px;
+    float: left;
+    border: 1px solid cyan;
+    margin:5px;
+}
+.blog-left p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-right h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #30336b;
+    border-bottom:2px solid #f10e65;
+    margin-bottom: 5px;
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    color: #535c68;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 3px 5px;
+    border: 2px solid #686de0;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #8e44ad;
+}
+.footer-left{
+    width: 40%;
+    float: left;
+}
+.footer-manu{
+    width: 60%;
+    float: right;
+}
+.footer-left p{
+    font-size: 30px;
+    padding-top: 20px;
+    color: #fff;
+}
+.footer-manu ul{
+    text-align: right;
+    list-style: none;
+}
+.footer-manu ul li{
+    display: inline-block;
+}
+.footer-manu ul li a{
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    padding: 5px 20px;
+}
